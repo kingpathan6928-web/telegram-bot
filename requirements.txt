@@ -1,1 +1,4 @@
 python-telegram-bot==22.7
+python-telegram-bot==22.7
+gspread
+google-auth
