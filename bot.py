@@ -180,8 +180,6 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE):
 def main():
     app = Application.builder().token(BOT_TOKEN).build()
     app.add_handler(CommandHandler("start", start))
-    app.add_handler(CallbackQueryHandler(button))
-    app.run_polling()
-
-if __name__ == "__main__":
+    app.add_handler(CallbackQueryHandler(button)
     main()
+        
