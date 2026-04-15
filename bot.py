@@ -7,7 +7,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, ContextTypes
 
 # --- Configuration ---
-BOT_TOKEN = "APNA_NAYA_TOKEN_YAHAN" # <-- Yahan apna token dalo
+BOT_TOKEN = "8004368216:AAEGFuNmjMvnazODL1scTYB-b-j6aFdxucI" # <-- Yahan apna token dalo
 CHANNEL = "@infohub_salman"
 ADMIN_ID = 8291716115
 SHEET_ID = "1zD1nw-NeEMirFZkYKgeYaP9AbvmLkODaYfwv0q_-VdY"
